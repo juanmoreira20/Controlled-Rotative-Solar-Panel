@@ -1,9 +1,4 @@
-% This script generates parameter data required 
-% for the solar panel Simulink models.
-%
-% Copyright 2020 The Mathworks, Inc.
-
-% Solar panel parameters
+% Solar Panel Parameters
 m = 50;               % Mass, [kg]
 w = 1.04;             % Width, [m]
 l = 1.4;              % Length, [m]
