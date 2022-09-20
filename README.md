@@ -5,6 +5,8 @@ This is an experiment based on matlab simulink tutorials, the data used can be f
 The system uses a voltage input to control the position of the Panel based on the error feedback provided by the following system(in block diagram):
 
 ![image](https://user-images.githubusercontent.com/95920281/191161197-96695871-3b23-486a-a6c8-3358066acea3.png)
+
+It was used a PI controller because that was no need to incorporate the derivative part of the equation, being that we are supposed to be able to pinpoint the sun's position at every instant and we´re not considerating abrupt changes such as cloud appearences.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The system is based in the motor and the panel rotation. First, the motor is described by the following equation and block diagram:
 
