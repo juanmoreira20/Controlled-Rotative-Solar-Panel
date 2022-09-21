@@ -64,7 +64,7 @@ Now, we'll see the results with the step entry:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-However, even with the new efficient results, removing the overshoot, we must use a limit to our voltage input to a -24 to 24, using a saturation that is provided whithin the I-PD block, resulting in the following wind-up effect:
+However, even with the new efficient results removing the overshoot, we must use a limit to our voltage input to a -24 to 24, using a saturation that is provided whithin the I-PD block, resulting in the following wind-up effect:
 
 ![image](https://user-images.githubusercontent.com/95920281/191589074-b8a6d653-1194-46aa-b8d5-3b51ac0c5dc6.png)
 
