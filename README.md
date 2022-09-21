@@ -40,7 +40,7 @@ Sun's Position:
 After the initial results a study was made to proper tune the PID controller, in fact, it was used a I-PD controller, tuned by the Sokegestad rules, all in which will be displayed above.
 The tuning is made based on the transfer function time constants and gains. All the math is displayed Above:
 1) Finding the transfer function
-i)<img src="https://latex.codecogs.com/svg.image?$\frac{\theta(s)}{V(s)}&space;=&space;\frac{1}{s}\frac{KgKt}{KdR((\frac{Js}{Kd}&plus;1)&plus;\frac{K^2gKfKt}{KdR})}$&space;\newlineThus:&space;$\frac{\theta(s)}{V(s)}&space;=&space;\frac{1}{s}\frac{KgKt}{K^2gKfKt&plus;KdR}\frac{1}{\frac{JRs}{K^2gKtKf&plus;RKd}&plus;1}$\newline" title="https://latex.codecogs.com/svg.image?$\frac{\theta(s)}{V(s)} = \frac{1}{s}\frac{KgKt}{KdR((\frac{Js}{Kd}+1)+\frac{K^2gKfKt}{KdR})}$ \newlineThus: $\frac{\theta(s)}{V(s)} = \frac{1}{s}\frac{KgKt}{K^2gKfKt+KdR}\frac{1}{\frac{JRs}{K^2gKtKf+RKd}+1}$\newline" />
+i)$\frac{\theta(s)}{V(s)} = \frac{1}{s}\frac{KgKt}{KdR((\frac{Js}{Kd}+1)+\frac{K^2gKfKt}{KdR})}$
 
 
 
