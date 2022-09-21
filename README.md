@@ -44,7 +44,7 @@ The tuning is made based on the transfer function time constants and gains. All 
 with the parameters that were explicit in the params file, we can assume that L/R is aproximate to zero, than, we can use this transfer function:
 ![image](https://user-images.githubusercontent.com/95920281/191582898-196c24b4-f6e9-4a3b-ba82-9f1556aee151.png)
 
-Provided with the approximate transfer function, we’re able to eas1ily see that it represents a first order system with a integrator.
+2) Provided with the approximate transfer function, we’re able to eas1ily see that it represents a first order system with a integrator.
 Using Skogestad SIMC rules for first order systems with a integrator in series we have:
 
 ![image](https://user-images.githubusercontent.com/95920281/191583102-3a90619f-e529-45bb-b39e-efb2bb286e89.png)
