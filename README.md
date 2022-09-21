@@ -70,7 +70,7 @@ However, even with the new efficient results removing the overshoot, we must use
 
 To ensure that out system is fighting this effect, we'll use the anti-wind up method of back calculation with the kb = 0.3, this provide the following results for the same -24 to 24 voltage input saturation
 
-![image](https://user-images.githubusercontent.com/95920281/191589445-8d4ac455-b8f7-450f-9261-7e3d26db65ad.png)
+![image](https://user-images.githubusercontent.com/95920281/191592713-0c932431-60fb-4977-b8a9-d9ff039984de.png)
 
 
 
