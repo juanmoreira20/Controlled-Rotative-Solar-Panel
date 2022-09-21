@@ -39,8 +39,9 @@ Sun's Position:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 After the initial results a study was made to proper tune the PID controller, in fact, it was used a I-PD controller, tuned by the Sokegestad rules, all in which will be displayed above.
 The tuning is made based on the transfer function time constants and gains. All the math is displayed Above:
-1) Finding the transfer function
-i)$\frac{\theta(s)}{V(s)} = \frac{1}{s}\frac{KgKt}{KdR((\frac{Js}{Kd}+1)+\frac{K^2gKfKt}{KdR})}$
+1) Finding the transfer function using the following differential equations
+![image](https://user-images.githubusercontent.com/95920281/191574171-238da503-fda4-4b9e-8c9f-427654134506.png)
+
 
 
 
