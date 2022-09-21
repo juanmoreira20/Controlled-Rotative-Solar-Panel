@@ -47,9 +47,35 @@ with the parameters that were explicit in the params file, we can assume that L/
 ![image](https://user-images.githubusercontent.com/95920281/191582898-196c24b4-f6e9-4a3b-ba82-9f1556aee151.png)
 
 2) Provided with the approximate transfer function, we’re able to eas1ily see that it represents a first order system with a integrator.
-Using Skogestad SIMC rules for first order systems with a integrator in series we have:
+Using Skogestad SIMC rules for first order systems with a integrator in series and its conversion to ideal I-PD we have:
 
 ![image](https://user-images.githubusercontent.com/95920281/191583102-3a90619f-e529-45bb-b39e-efb2bb286e89.png)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+In this section we'll observe the differences in the process with the current presented setting and the previous step signal entry results
+First, let's look into the "new" block model with the I-PD controller and the display of the voltage in the major scope
+
+![image](https://user-images.githubusercontent.com/95920281/191588274-7bf575b2-b8b8-4a6a-ab8a-6b57b27794a2.png)
+
+Now, we'll see the results with the step entry:
+
+![image](https://user-images.githubusercontent.com/95920281/191588478-6213b4f3-5d56-4d81-a296-202d260e64ae.png)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+However, even with the new efficient results, removing the overshoot, we must use a limit to our voltage input to a -24 to 24, using a saturation that is provided whithin the I-PD block, resulting in the following wind-up effect:
+
+![image](https://user-images.githubusercontent.com/95920281/191589074-b8a6d653-1194-46aa-b8d5-3b51ac0c5dc6.png)
+
+To ensure that out system is fighting this effect, we'll use the anti-wind up method of back calculation with the kb = 0.3, this provide the following results for the same -24 to 24 voltage input saturation
+
+![image](https://user-images.githubusercontent.com/95920281/191589445-8d4ac455-b8f7-450f-9261-7e3d26db65ad.png)
+
+
+
+
+
 
 
 
