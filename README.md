@@ -48,6 +48,7 @@ with the parameters that were explicit in the params file, we can assume that L/
 
 2) Provided with the approximate transfer function, we’re able to eas1ily see that it represents a first order system with a integrator.
 Using Skogestad SIMC rules for first order systems with a integrator in series we have:
+
 ![image](https://user-images.githubusercontent.com/95920281/191583102-3a90619f-e529-45bb-b39e-efb2bb286e89.png)
 
 
