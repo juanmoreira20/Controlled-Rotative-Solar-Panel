@@ -56,7 +56,7 @@ Using Skogestad SIMC rules for first order systems with a integrator in series a
 In this section we'll observe the differences in the process with the current presented setting and the previous step signal entry results
 First, let's look into the "new" block model with the I-PD controller and the display of the voltage in the major scope
 
-![image](https://user-images.githubusercontent.com/95920281/191588274-7bf575b2-b8b8-4a6a-ab8a-6b57b27794a2.png)
+![image](https://user-images.githubusercontent.com/95920281/191591778-84a1a403-1c7a-4d47-bc03-801da97708d9.png)
 
 Now, we'll see the results with the step entry:
 
